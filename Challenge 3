@@ -9,7 +9,7 @@ boolean checkPalindrome(String inputString) {
     return isPalindrome;
 }
 
-/*Alternate solution
+/*Alternate solution for palindrome
 *boolean checkPalindrome(String inputString) {
 *    return inputString.equals(new StringBuilder(inputString).reverse().toString());
 *}
